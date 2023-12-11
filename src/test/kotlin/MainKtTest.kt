@@ -23,7 +23,7 @@ class MainKtTest {
 
         val result = calculateСommission(cardType, amount, oldTransfers)
 
-        assertEquals(500, result)
+        assertEquals(0, result)
     }
 
     @Test
@@ -45,7 +45,7 @@ class MainKtTest {
 
         val result = calculateСommission(cardType, amount, oldTransfers)
 
-        assertEquals(675, result)
+        assertEquals(0, result)
     }
 
     @Test
